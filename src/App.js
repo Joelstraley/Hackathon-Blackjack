@@ -1,23 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Background from './components/Background';
+import Header from "./components/Header";
+import TableTop from './components/TableTop';
+import Container from './components/Container';
+import AllBtns from "./components/Buttons/AllBtns";
+
+///
+///Create Figma layout
+//Build out logic of BlackJack and breakdown components
+///
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <Background>
+        <TableTop>
+        <AllBtns />
+        </TableTop>
+        <AllBtns />
+        </Background>
+     
     </div>
   );
 }

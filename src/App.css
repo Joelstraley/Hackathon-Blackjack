@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,47 @@
   to {
     transform: rotate(360deg);
   }
+} */
+  @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+ html {
+   background-color: rgb(0, 0, 0, 0)
+ }
+ 
+
+body {
+background-image: url("/src/assets/photos/background.jpeg");
+background-size: cover;
+background-repeat: repeat-x;
+/* background-position: center;   */
+/* height: 100%;
+width: 100%;
+overflow:auto;
+vertical-align:bottom; */
+background-color:rgb(0, 0, 0);
+}
+
+.font-face-3d {
+  display: flex;
+  font-family: "Casino3DMarquee";
+  color: rgb(248, 0, 227);
+  font-size: 500%;
+  text-shadow: 10pc;
+  justify-content: center;
+}
+
+.bg-img {
+   background-image: url('./assets/photos/tabletop.jpeg');
+}
+
+.tableTop {
+  background-image: url('./assets/photos/tabletop.jpeg');
+  height: 100%;
+  margin: 10% 10%;
+  border-radius: 25px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
 }

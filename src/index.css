@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "Casino3DMarquee";
+  src: local("Casino3DMarquee"),
+    url("./fonts/casino/Casino3DMarquee.ttf") format("truetype");
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
